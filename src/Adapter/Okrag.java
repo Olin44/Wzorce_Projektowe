@@ -1,9 +1,9 @@
 package Adapter;
 
 public class Okrag extends Figura {
-    private XXOkragImpl xxOkrag;
+    private XXOkrag xxOkrag;
 
-    public Okrag(XXOkragImpl xxOkrag){
+    public Okrag(XXOkrag xxOkrag){
         this.xxOkrag = xxOkrag;
     }
 
