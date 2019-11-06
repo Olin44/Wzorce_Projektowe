@@ -8,8 +8,7 @@ public abstract class Figura {
     public void nadajPolozenie(){}
     public void nadajKolor(){}
 
-    public String wyswietl(){
-        return "";
-    }
+    public abstract String wyswietl();
+
 }
 
