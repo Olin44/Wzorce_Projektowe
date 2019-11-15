@@ -15,7 +15,6 @@ public class MyIterators {
         FullIterator fullIterator = myTab.getFullIterator();
         IteratorWithoutZeros iteratorWithoutZeros = myTab.getIteratorWithoutZeros();
 
-
         System.out.println("Full iterator");
         for (fullIterator.first(); !fullIterator.isDone(); fullIterator.next()) {
             System.out.print(fullIterator.currentItem() + "  ");
@@ -23,7 +22,6 @@ public class MyIterators {
 
         System.out.println();
         System.out.println("Iterator without zeros");
-
 
         for (iteratorWithoutZeros.first(); !iteratorWithoutZeros.isDone(); iteratorWithoutZeros.next()) {
             System.out.print(iteratorWithoutZeros.currentItem() + "  ");

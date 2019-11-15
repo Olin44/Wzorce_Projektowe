@@ -12,12 +12,9 @@ public class Wektor3D {
     }
 
     public Wektor3D dodaj(Wektor3D wektor){
-        int x;
-        int y;
-        int z;
-        x = this.x + wektor.x;
-        y = this.y + wektor.y;
-        z = this.z + wektor.z;
+        int x = this.x + wektor.x;
+        int y = this.y + wektor.y;
+        int z = this.z + wektor.z;
         return new Wektor3D(x,y,z);
     }
 
@@ -34,23 +31,8 @@ public class Wektor3D {
         return x;
     }
 
-    public void setX(int x) {
-        this.x = x;
-    }
-
     public int getY() {
         return y;
     }
 
-    public void setY(int y) {
-        this.y = y;
-    }
-
-    public int getZ() {
-        return z;
-    }
-
-    public void setZ(int z) {
-        this.z = z;
-    }
 }

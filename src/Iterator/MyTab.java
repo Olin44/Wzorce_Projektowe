@@ -17,9 +17,8 @@ public class MyTab {
     public FullIterator getFullIterator(){
         return new FullIterator(this);
     }
+
     public IteratorWithoutZeros getIteratorWithoutZeros(){
         return new IteratorWithoutZeros(this);
     }
-
-
 }
