@@ -1,8 +1,6 @@
 package Bridge;
 
 public class Okrag extends Figura {
-    BibliotekaV1 v1 = new BibliotekaV1();
-    BibliotekaV2 v2 = new BibliotekaV2();
 
     @Override
     public void rysuj() {
@@ -11,13 +9,13 @@ public class Okrag extends Figura {
 
     @Override
     public void rysujLinie() {
-        v1.rysujLinie();
-        v2.rysujOkrag();
+        bibliotekaV1.rysujLinie();
+        bibliotekaV2.rysujLinie();
     }
 
     @Override
     public void rysujOkrag() {
-        v1.rysujLinie();
-        v2.rysujOkrag();
+        bibliotekaV1.rysujOkrag();
+        bibliotekaV2.rysujOkrag();
     }
 }

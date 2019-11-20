@@ -1,6 +1,7 @@
 package Strategia;
 
 public class PodatekPolska implements ObliczPodatek{
+
     private double VAT = 2137;
 
     @Override

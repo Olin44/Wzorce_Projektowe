@@ -1,6 +1,6 @@
 package Bridge;
 
 public interface Biblioteka {
-    public void rysujLinie();
-    public void rysujOkrag();
+    void rysujLinie();
+    void rysujOkrag();
 }

@@ -1,6 +1,7 @@
 package Strategia;
 
 public class Zamowienie {
+
     private double[] towary;
     private ObliczPodatek obliczPodatek;
 
